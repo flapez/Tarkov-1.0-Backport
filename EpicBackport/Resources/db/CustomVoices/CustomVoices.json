@@ -1,0 +1,18 @@
+{
+  "6747aa4495b4845a0f3d9f98": {
+    "locales": {
+      "en": "Nikita"
+    },
+    "name": "Nikita",
+    "bundlePath": "backported_assets/assets/content/audio/phrases/bear_05_nikita_voice.bundle",
+    "addVoiceToPlayer": true
+  },
+  "691eb7680790bd71ebf876c5": {
+    "locales": {
+      "en": "Nikita (Eng)"
+    },
+    "name": "Nikita (Eng)",
+    "bundlePath": "backported_assets/assets/content/audio/phrases/usec_08_nikita_voice.bundle",
+    "addVoiceToPlayer": true
+  }
+}
