@@ -134,5 +134,42 @@
       }
     },
     "masterySections": []
+  },
+  "69218c46ab4ba42ad3852a34": {
+    "itemTplToClone": "56eabcd4d2720b66698b4574",
+    "parentId": "56ea9461d2720b67698b456f",
+    "handbookParentId": "5b5f760586f774093e6cb509",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "backported_assets/assets/content/items/mods/gasblock/gas_block_ar15_slr_sentry_7_adjustable.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.04,
+      "Recoil": -1,
+      "Ergonomics": -0.5,
+      "DurabilityBurnModificator": 0.98,
+      "HeatFactor": 0.98,
+      "CoolFactor": 1.12
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 SLR Rifleworks Sentry 7 gas block",
+        "shortName": "Sentry 7",
+        "description": "A low-profile gas block that replaces the factory gas tube collar on AR-10/AR-15 family carbines and rifles. Manufactured by SLR Rifleworks."
+      }
+    },
+    "fleaPriceRoubles": 6048,
+    "handbookPriceRoubles": 5986,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_gas_block"
+    ],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": []
   }
 }
