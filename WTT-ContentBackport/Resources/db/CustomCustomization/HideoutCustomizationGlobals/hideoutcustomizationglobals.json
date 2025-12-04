@@ -1,0 +1,145 @@
+[
+  {
+    "id": "68fb6f6ffe837b263675b307",
+    "conditions": [
+
+    ],
+    "type": "ceiling",
+    "index": 0,
+    "systemName": "Celling_Forgotten",
+    "isEnabled": true,
+    "itemId": "68fb6aa63545a39de907326f"
+  },
+  {
+    "id": "68fb6fb9463114d454c027f4",
+    "conditions": [
+
+    ],
+    "type": "ceiling",
+    "index": 0,
+    "systemName": "Ceiling_EchoOfBattle",
+    "isEnabled": true,
+    "itemId": "68fb6abe365db7fe8a0e25ef"
+  },
+  {
+    "id": "68fb6e2702ea5d0cc06d7c6e",
+    "conditions": [
+
+    ],
+    "type": "floor",
+    "index": 0,
+    "systemName": "Floor_Forgotten",
+    "isEnabled": true,
+    "itemId": "68fb6a703545a39de9073267"
+  },
+  {
+    "id": "68fb6eb96ed5f4557af480d5",
+    "conditions": [
+
+    ],
+    "type": "floor",
+    "index": 0,
+    "systemName": "Floor_EchoOfBattle",
+    "isEnabled": true,
+    "itemId": "68fb6a7cf91c87952f0c4fe5"
+  },
+  {
+    "id": "6758472232e5ca2c980a17ff",
+    "conditions": [
+
+    ],
+    "type": "floor",
+    "index": 0,
+    "systemName": "Floor_WoodPlane",
+    "isEnabled": true,
+    "itemId": "675466ea8b3797a0e8038bd2"
+  },
+  {
+    "id": "68f619d9d23c3d2d45fb09d0",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "TargetAceOfSpades",
+    "isEnabled": true,
+    "itemId": "68f615b0c7592f88510b1c32"
+  },
+  {
+    "id": "68f6449ab73a44dece438af0",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "TargetAxeman",
+    "isEnabled": true,
+    "itemId": "68f6159355deae75be0f3bb6"
+  },
+  {
+    "id": "68f1572c12acbcd166996567",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "Target_Killa",
+    "isEnabled": true,
+    "itemId": "68f1500a8e0bff44ce023f1e"
+  },
+  {
+    "id": "68f1592f01e91e252775154c",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "Target_Tagilla",
+    "isEnabled": true,
+    "itemId": "68f151258e0bff44ce023f20"
+  },
+  {
+    "id": "68f15ac29b55416f515c0c5b",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "Target_Zryachiy",
+    "isEnabled": true,
+    "itemId": "68f1516fd4bee20384008afa"
+  },
+  {
+    "id": "68f15b8fc99c22fc2ddb03df",
+    "conditions": [
+
+    ],
+    "type": "shootingRangeMark",
+    "index": 0,
+    "systemName": "Target_Knight",
+    "isEnabled": true,
+    "itemId": "68f151bf79e73568c40a7938"
+  },
+  {
+    "id": "68fb6c97405c8cf0eeb89c9b",
+    "conditions": [
+
+    ],
+    "type": "wall",
+    "index": 0,
+    "systemName": "Wall_Forgotten",
+    "isEnabled": true,
+    "itemId": "68fb6a28f0b98c76ea0dc313"
+  },
+  {
+    "id": "68fb6dc4a13679ac8ab7dcdd",
+    "conditions": [
+
+    ],
+    "type": "wall",
+    "index": 0,
+    "systemName": "Wall_EchoOfBattle",
+    "isEnabled": true,
+    "itemId": "68fb6a584e7ecdb1220adfa5"
+  }
+]
