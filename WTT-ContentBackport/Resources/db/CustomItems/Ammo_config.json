@@ -1,6 +1,6 @@
 {
   "68c15f77ed3d7df9220debd6": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5735fdcd2459776445391d61",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -152,30 +152,16 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 666,
     "handbookPriceRoubles": 560,
-    "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
-    "addtoHallOfFame": false,
-    "hallOfFameSlots": [],
-    "addtoSpecialSlots": false,
-    "addtoHideoutPosterSlots": false,
-    "addPosterToMaps": false,
-    "posterSpawnProbability": 0,
-    "addtoStatuetteSlots": false,
-    "addCaliberToAllCloneLocations": false,
+    "addCaliberToAllCloneLocations": true,
     "addtoStaticAmmo": false,
     "staticAmmoProbability": 0,
-    "addtoSecureFilters": false,
-    "masteries": false,
-    "masterySections": [],
-
     "addtoTraders": false,
     "traders": {}
   },
   "67c540cfb032bbdb530201b8": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5e023e6e34d52a55c3304f71",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -256,7 +242,7 @@
       },
       "BulletDiameterMilimeters": 7.85,
       "BulletMassGram": 9.75,
-      "Caliber": "Caliber762x51",
+      "Caliber": "Caliber784x49",
       "Contusion": {
         "x": 0,
         "y": 0,
@@ -327,7 +313,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 1024,
     "handbookPriceRoubles": 189,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -345,12 +331,11 @@
     "addtoSecureFilters": false,
     "masteries": false,
     "masterySections": [],
-
     "addtoTraders": false,
     "traders": {}
   },
   "68c15a033173b556890b5959": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5735fdcd2459776445391d61",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -502,7 +487,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 380,
     "handbookPriceRoubles": 320,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -525,7 +510,7 @@
     "traders": {}
   },
   "68bac6ca653ee6b1e406d978": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5fc275cf85fd526b824a571a",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -677,7 +662,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 1510,
     "handbookPriceRoubles": 1450,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -700,7 +685,7 @@
     "traders": {}
   },
   "68aeed8a8906b00bc800fdd6": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5fc275cf85fd526b824a571a",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -852,7 +837,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 1567,
     "handbookPriceRoubles": 1150,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -864,18 +849,14 @@
     "addPosterToMaps": false,
     "posterSpawnProbability": 0,
     "addtoStatuetteSlots": false,
-    "addCaliberToAllCloneLocations": false,
+    "addCaliberToAllCloneLocations": true,
     "addtoStaticAmmo": false,
     "staticAmmoProbability": 0,
-    "addtoSecureFilters": false,
-    "masteries": false,
-    "masterySections": [],
-
     "addtoTraders": false,
     "traders": {}
   },
   "67c540c3d0538d12ec036c08": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5e023e6e34d52a55c3304f71",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -956,7 +937,7 @@
       },
       "BulletDiameterMilimeters": 7.85,
       "BulletMassGram": 9.75,
-      "Caliber": "Caliber762x51",
+      "Caliber": "Caliber784x49",
       "Contusion": {
         "x": 0,
         "y": 0,
@@ -1027,7 +1008,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 523,
     "handbookPriceRoubles": 523,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -1050,7 +1031,7 @@
     "traders": {}
   },
   "68bad8376cb22acf1107a586": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5fc275cf85fd526b824a571a",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -1202,7 +1183,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 4038,
     "handbookPriceRoubles": 2300,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -1225,7 +1206,7 @@
     "traders": {}
   },
   "68c15b4bb30038a118088bd6": {
-    "itemTplToClone": "SETME",
+    "itemTplToClone": "5735fdcd2459776445391d61",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
@@ -1377,7 +1358,7 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 0,
+    "fleaPriceRoubles": 167,
     "handbookPriceRoubles": 150,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -1389,13 +1370,12 @@
     "addPosterToMaps": false,
     "posterSpawnProbability": 0,
     "addtoStatuetteSlots": false,
-    "addCaliberToAllCloneLocations": false,
+    "addCaliberToAllCloneLocations": true,
     "addtoStaticAmmo": false,
     "staticAmmoProbability": 0,
     "addtoSecureFilters": false,
     "masteries": false,
     "masterySections": [],
-
     "addtoTraders": false,
     "traders": {}
   }
