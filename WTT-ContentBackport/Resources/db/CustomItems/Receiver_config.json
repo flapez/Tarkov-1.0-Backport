@@ -1076,7 +1076,7 @@
     "traders": {}
   },
   "6895becad55f0ebf6a0c0311": {
-    "itemTplToClone": "mod_reciever",
+    "itemTplToClone": "55d355e64bdc2d962f8b4569",
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
