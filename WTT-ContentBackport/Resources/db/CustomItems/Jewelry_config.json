@@ -1586,7 +1586,7 @@
   "68f26161b84c6e1f8a09d001": {
     "itemTplToClone": "655c66e40b2de553b618d4b8",
     "parentId": "57864a3d24597754843f8721",
-    "handbookParentId": "SETME",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
     "overrideProperties": {
       "AnimationVariantsNumber": 0,
       "BackgroundColor": "violet",

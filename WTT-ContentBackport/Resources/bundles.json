@@ -1,6 +1,14 @@
 {
     "manifest": [
         {
+            "key": "assets/content/weapons/mxlr/textures/client_assets.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/content/weapons/svdk/textures/client_assets.bundle",
+            "dependencyKeys": []
+        },
+        {
             "key": "assets/content/audio/phrases/bear_05_nikita_voice.bundle",
             "dependencyKeys": []
         },

@@ -1822,7 +1822,7 @@
     "traders": {}
   },
   "68a9b5a5863d2a71fa0494a6": {
-    "itemTplToClone": "5b47574386f77428ca22b330",
+    "itemTplToClone": "5f60b34a41e30a4ab12a6947",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
     "overrideProperties": {
@@ -2720,7 +2720,6 @@
     "addtoSecureFilters": false,
     "masteries": false,
     "masterySections": [],
-
     "addtoTraders": false,
     "traders": {},
     "addWeaponPreset": true,
