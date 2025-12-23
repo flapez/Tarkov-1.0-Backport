@@ -154,8 +154,13 @@
     "fleaPriceRoubles": 374000,
     "handbookPriceRoubles": 145004,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_SUPPLY_CRATE_2",
+        "probability": 150
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
