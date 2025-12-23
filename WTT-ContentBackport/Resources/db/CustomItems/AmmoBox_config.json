@@ -98,8 +98,25 @@
     "fleaPriceRoubles": 0,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -216,8 +233,29 @@
     "fleaPriceRoubles": 29587,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -334,8 +372,29 @@
     "fleaPriceRoubles": 75622,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -452,8 +511,29 @@
     "fleaPriceRoubles": 42285,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 111
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 111
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 111
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 111
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -570,8 +650,29 @@
     "fleaPriceRoubles": 29582,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 111
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 111
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 112
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 114
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -688,8 +789,29 @@
     "fleaPriceRoubles": 10000,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -806,8 +928,29 @@
     "fleaPriceRoubles": 95000,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -924,8 +1067,29 @@
     "fleaPriceRoubles": 20478,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 136
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 136
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 136
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 136
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -1042,8 +1206,29 @@
     "fleaPriceRoubles": 29999,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 600
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 600
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 600
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 999
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 600
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -1160,8 +1345,29 @@
     "fleaPriceRoubles": 35639,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -1278,8 +1484,29 @@
     "fleaPriceRoubles": 33657,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
@@ -1396,8 +1623,29 @@
     "fleaPriceRoubles": 28752,
     "handbookPriceRoubles": 1000,
     "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "staticLootContainers": [],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_TOOLBOX_4X3_2",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "probability": 250
+      }
+    ],
     "addtoHallOfFame": false,
     "hallOfFameSlots": [],
     "addtoSpecialSlots": false,
