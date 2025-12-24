@@ -75,13 +75,13 @@ public class BaseGameItemEdits(
                     slotHelper.ModifySlotFilters(item, 0, 0, [
                         "6932aeebbe542622170428ba",
                         "6936bde84737190b66053bb1"]);
-                    break; //Manually push MK12 top rail to upper receivers
+                    break; //Manually push M110 gas blocks to SR-25 barrels
                 
                 case "5dfa397fb11454561e39246c":
                     slotHelper.ModifySlotFilters(item, 0, 0, [
                         "6932aeebbe542622170428ba",
                         "6936bde84737190b66053bb1"]);
-                    break; //Manually push MK12 top rail to upper receivers
+                    break; //Manually push M110 gas blocks to SR-25 barrels
             }
         }
     }
