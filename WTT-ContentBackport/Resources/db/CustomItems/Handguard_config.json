@@ -4228,7 +4228,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "65329ebcc0d50d0c9204ace1",
+        "6565c0c2ff7eb7070409084c"
+      ],
       "Description": "handguard_sr3m_karden_railed_handguard",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
