@@ -106,7 +106,7 @@
       }
     },
     "addtoInventorySlots": [],
-    "addtoModSlots": false,
+    "addtoModSlots": true,
     "modSlot": [
       "mod_stock"
     ],
