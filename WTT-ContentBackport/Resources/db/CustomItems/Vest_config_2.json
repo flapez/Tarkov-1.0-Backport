@@ -694,58 +694,12 @@
       "ForbidNonEmptyContainers": false,
       "Grids": [
         {
-          "_name": "1",
-          "_id": "693fd13aa490096a05028cca",
-          "_parent": "693fd13aa490096a05028cc8",
+          "_id": "b040f6f73126589c5333c97c",
+          "_name": "GridView (1)",
+          "_parent": "tak_kec_jaypc_od",
           "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "2",
-          "_id": "693fd13aa490096a05028ccb",
-          "_parent": "693fd13aa490096a05028cc8",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
             "cellsH": 1,
             "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "3",
-          "_id": "693fd13aa490096a05028ccc",
-          "_parent": "693fd13aa490096a05028cc8",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -756,20 +710,20 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "9c0474cf93a7215cba909525",
+          "_name": "GridView (2)",
+          "_parent": "tak_kec_jaypc_od",
+          "_props": {
             "cellsH": 1,
             "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "4",
-          "_id": "693fd13aa490096a05028ccd",
-          "_parent": "693fd13aa490096a05028cc8",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -780,20 +734,20 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "61856e13d38cf30bb0084ff1",
+          "_name": "GridView (3)",
+          "_parent": "tak_kec_jaypc_od",
+          "_props": {
             "cellsH": 1,
             "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "5",
-          "_id": "693fd13aa490096a05028cce",
-          "_parent": "693fd13aa490096a05028cc8",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -804,20 +758,20 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "70f81b52e507c90e0fbf2255",
+          "_name": "GridView (4)",
+          "_parent": "tak_kec_jaypc_od",
+          "_props": {
             "cellsH": 1,
             "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "693fd13aa490096a05028ccf",
-          "_parent": "693fd13aa490096a05028cc8",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -828,36 +782,82 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "7",
-          "_id": "693fd13aa490096a05028cd0",
-          "_parent": "693fd13aa490096a05028cc8",
+          "_id": "e6ab759f8a1d8f8324957303",
+          "_name": "GridView (5)",
+          "_parent": "tak_kec_jaypc_od",
           "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
             "cellsH": 2,
             "cellsV": 2,
-            "minCount": 0,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "31e0a8f8d3b53df538203d0a",
+          "_name": "GridView (6)",
+          "_parent": "tak_kec_jaypc_od",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "dd6f1d6b65c43bb929d556cc",
+          "_name": "GridView (7)",
+          "_parent": "tak_kec_jaypc_od",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         }
@@ -954,7 +954,7 @@
       "ArmorType": "Light",
       "BluntThroughput": 0.35,
       "MetascoreGroup": "Utility",
-      "RigLayoutName": "jpc_scav_02",
+      "RigLayoutName": "tak_kec_jaypc_od",
       "armorClass": 0,
       "armorZone": [],
       "mousePenalty": 0,
@@ -1093,10 +1093,12 @@
       "ForbidNonEmptyContainers": false,
       "Grids": [
         {
-          "_name": "1",
-          "_id": "693fd1200ec97e98040bd3fb",
-          "_parent": "693fd1200ec97e98040bd3f9",
+          "_id": "44715514c211ec6b44074b43",
+          "_name": "GridView (1)",
+          "_parent": "tak_kec_jaypc_b",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1107,20 +1109,92 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "c078feccd14efd45ae862b02",
+          "_name": "GridView (2)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5caf699ac4156fd6d1c7505a",
+          "_name": "GridView (3)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e605a3f5481e6700715c1369",
+          "_name": "GridView (4)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "32f532722ef79d0410efb67c",
+          "_name": "GridView (5)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
             "cellsH": 1,
             "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "2",
-          "_id": "693fd1200ec97e98040bd3fc",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1131,20 +1205,20 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b054c399c19800469330a82e",
+          "_name": "GridView (6)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
             "cellsH": 1,
             "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "3",
-          "_id": "693fd1200ec97e98040bd3fd",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1155,20 +1229,20 @@
                 ]
               }
             ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3bf1567960b9557d087a1155",
+          "_name": "GridView (7)",
+          "_parent": "tak_kec_jaypc_b",
+          "_props": {
             "cellsH": 1,
             "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "4",
-          "_id": "693fd1200ec97e98040bd3fe",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1179,20 +1253,20 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "5",
-          "_id": "693fd1200ec97e98040bd3ff",
-          "_parent": "693fd1200ec97e98040bd3f9",
+          "_id": "97a3ac4d6cb30d83163bf1b9",
+          "_name": "GridView (8)",
+          "_parent": "tak_kec_jaypc_b",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1203,84 +1277,10 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "693fd1200ec97e98040bd400",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "7",
-          "_id": "693fd1200ec97e98040bd401",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "8",
-          "_id": "693fd1200ec97e98040bd402",
-          "_parent": "693fd1200ec97e98040bd3f9",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         }
@@ -1377,7 +1377,7 @@
       "ArmorType": "Light",
       "BluntThroughput": 0.35,
       "MetascoreGroup": "Utility",
-      "RigLayoutName": "jpc_scav_01",
+      "RigLayoutName": "tak_kec_jaypc_b",
       "armorClass": 0,
       "armorZone": [],
       "mousePenalty": 0,
@@ -1516,10 +1516,12 @@
       "ForbidNonEmptyContainers": false,
       "Grids": [
         {
-          "_name": "1",
-          "_id": "693fd0e9deee848f7005499b",
-          "_parent": "693fd0e9deee848f70054999",
+          "_id": "2fa1ed4c1e9953b932eae30b",
+          "_name": "GridView (1)",
+          "_parent": "crye_jpc",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1530,20 +1532,20 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "2",
-          "_id": "693fd0e9deee848f7005499c",
-          "_parent": "693fd0e9deee848f70054999",
+          "_id": "d3c4894edacc1ec7cf085fca",
+          "_name": "GridView (2)",
+          "_parent": "crye_jpc",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1554,20 +1556,20 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "3",
-          "_id": "693fd0e9deee848f7005499d",
-          "_parent": "693fd0e9deee848f70054999",
+          "_id": "f354ca94ae8dadc431d27d58",
+          "_name": "GridView (3)",
+          "_parent": "crye_jpc",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1578,20 +1580,20 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "4",
-          "_id": "693fd0e9deee848f7005499e",
-          "_parent": "693fd0e9deee848f70054999",
+          "_id": "0a10b7d609a260f4bf06c922",
+          "_name": "GridView (4)",
+          "_parent": "crye_jpc",
           "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1602,140 +1604,20 @@
                 ]
               }
             ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_name": "5",
-          "_id": "693fd0e9deee848f7005499f",
-          "_parent": "693fd0e9deee848f70054999",
+          "_id": "48a316b7443d4fc52a5ca222",
+          "_name": "GridView (5)",
+          "_parent": "crye_jpc",
           "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "693fd0e9deee848f700549a0",
-          "_parent": "693fd0e9deee848f70054999",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "7",
-          "_id": "693fd0e9deee848f700549a1",
-          "_parent": "693fd0e9deee848f70054999",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "8",
-          "_id": "693fd0e9deee848f700549a2",
-          "_parent": "693fd0e9deee848f70054999",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "9",
-          "_id": "693fd0e9deee848f700549a3",
-          "_parent": "693fd0e9deee848f70054999",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
             "cellsH": 2,
             "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "10",
-          "_id": "69441a91403fa12b50069bcc",
-          "_parent": "693fd0e9deee848f70054999",
-          "_props": {
             "filters": [
               {
                 "ExcludedFilter": [
@@ -1746,12 +1628,130 @@
                 ]
               }
             ],
-            "cellsH": 2,
-            "cellsV": 2,
-            "minCount": 0,
+            "isSortingTable": false,
             "maxCount": 0,
             "maxWeight": 0,
-            "isSortingTable": false
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "bec82bac4fa5a56190f8c282",
+          "_name": "GridView (6)",
+          "_parent": "crye_jpc",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d5191f549103556d70501d54",
+          "_name": "GridView (7)",
+          "_parent": "crye_jpc",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e432cc361faa0ee1b6bb0a65",
+          "_name": "GridView (8)",
+          "_parent": "crye_jpc",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "2f98fe4c5f8fbedffc57b347",
+          "_name": "GridView (9)",
+          "_parent": "crye_jpc",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "ed2fd0ac57aa3fb0ff1b73fd",
+          "_name": "GridView (10)",
+          "_parent": "crye_jpc",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         }
@@ -1848,7 +1848,7 @@
       "ArmorType": "Light",
       "BluntThroughput": 0.35,
       "MetascoreGroup": "Utility",
-      "RigLayoutName": "jpc_milspec_01",
+      "RigLayoutName": "crye_jpc",
       "armorClass": 0,
       "armorZone": [],
       "mousePenalty": 0,

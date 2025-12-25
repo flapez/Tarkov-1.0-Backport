@@ -48,7 +48,7 @@ public class WTTContentBackport(
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
         await wttCommon.CustomAchievementService.CreateCustomAchievements(assembly);
         await wttCommon.CustomBotLoadoutService.CreateCustomBotLoadouts(assembly);
-        new AddCustomisationUnlocksToProfilePatch().Enable();
+        //new AddCustomisationUnlocksToProfilePatch().Enable();
         backportQuestHelper.ModifyQuests();
         backportJunkDisabler.AddDogtagsToPmCs();
         backportJunkDisabler.AddItemsToRewardItemBlacklist();

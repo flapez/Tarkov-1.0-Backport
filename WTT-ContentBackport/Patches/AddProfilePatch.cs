@@ -21,6 +21,5 @@ public class AddCustomisationUnlocksToProfilePatch : AbstractPatch
     public static void Postfix(SptProfile fullProfile)  // ← Match the parameter name exactly
     {
         var num = fullProfile.AddAllDevCustomisations();
-        Console.WriteLine($"Added {num} customisations to dev profile");
     }
 }

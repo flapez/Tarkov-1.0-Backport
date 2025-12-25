@@ -29,13 +29,16 @@ public class NikitasVoiceCommand(
         
         var profile = profileHelper.GetFullProfile(sessionId);
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
-        IEnumerable<MongoId> ruafVoices = new MongoId[]
+        var pmcProfile = profile.CharacterData?.PmcData;
+        var side = pmcProfile?.Info?.Side;
+        if (side?.ToLower() == "bear")
         {
-            "68a322944dc8ea81b603528f",
-            "68a322c44dc8ea81b6035293",
-        };
-        profile.AddCustomisation("690d4eda458927196f0775f8", "voice");
-        profile.AddCustomisation("690d4eef8cef6e31cb0d7b88", "voice");
+            profile.AddCustomisation("690d4eef8cef6e31cb0d7b88", "voice");
+        }
+        else
+        {
+            profile.AddCustomisation("690d4eda458927196f0775f8", "voice");
+        }
         mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a full game restart in order to use Nikita's Voice");
         return new ValueTask<string>(request.DialogId);
     }
