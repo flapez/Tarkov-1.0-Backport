@@ -39,12 +39,12 @@
   "6948bdfa8c37d412919a56fa description": "Eliminate 20 enemies on Factory in a single raid",
   "6948bed64eec012e689a56ff name": "Explosive Liquidation",
   "6948bed64eec012e689a56ff description": "Eliminate 8 PMCs using grenades in a single raid",
-  "694c5cae0256a6bd999a5721 name": "When I said 'I want All The Clothes...'",
-  "694c5cae0256a6bd999a5721 description": "Use a commando code to unlock access to Civilian, RUAF, and Black Division Clothes",
+  "694c5cae0256a6bd999a5721 name": "When I said 'I want all the clothes...'",
+  "694c5cae0256a6bd999a5721 description": "Use a commando code to unlock access to Civilian, RUAF, and Black Division Clothes. Hey, wait, you aren't supposed to have these!",
   "694c5527d1d40bd7db9a571a name": "Backstabber",
   "694c5527d1d40bd7db9a571a description": "Use a commando code to unlock access to the Arena clothing. Et tu, PMC?",
   "694c60b50cb1e6ad639a5723 name": "I 'Escaped'",
-  "694c60b50cb1e6ad639a5723 description": "Use a commando code to unlock access to the four different endings content",
+  "694c60b50cb1e6ad639a5723 description": "Use a commando code to Receive the four different endings content",
   "694c61348c72377a809a5725": "Didn't Escape From Yourself Ceiling",
   "694c61a990bd6024059a5736": "For Humanity Ceiling",
   "694c61a762f85604389a5735": "For Humanity Floor",
@@ -72,6 +72,8 @@
   "694c671580d687128a9a5747": "Civilian 3 Head",
   "694c6714b0d03faaa99a5746": "Civilian 2 Head",
   "694c6712d2fea2636a9a5745": "Civilian 1 Head",
-  "694d461137c74cb29f31c5e6": "Secure container Gamma (Loui Peeton)"
+  "694d461137c74cb29f31c5e6": "Secure container Gamma (Loui Peeton)",
+  "694d58833cff7ff7be31c5e8 name": "Twitch Guy! Twitch Guy!",
+  "694d58833cff7ff7be31c5e8 description": "Use a commando code to Receive all post 1.0 Twitch drop content"
 }
   

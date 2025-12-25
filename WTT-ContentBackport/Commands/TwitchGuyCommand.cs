@@ -36,7 +36,7 @@ public class TwitchGuyCommand(
     {
         get
         {
-            return "Usage: test twitchguytwitchguytwitchguy";
+            return "Usage: Receive all post 1.0 Twitch drop content";
         }
     }
 }

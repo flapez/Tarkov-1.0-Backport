@@ -22,7 +22,6 @@
   <ItemGroup>
     <Folder Include="Resources\bundles\" />
     <Folder Include="Resources\db\CustomAchievements\Images\" />
-    <Folder Include="Resources\db\CustomCustomization\CustomizationStorage\" />
   </ItemGroup>
 
   <ItemGroup>

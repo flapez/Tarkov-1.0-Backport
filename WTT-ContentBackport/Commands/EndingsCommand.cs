@@ -11,14 +11,12 @@ namespace WTTExampleMod.Commands;
 
 [Injectable]
 public class EndingsCommand(
-    DatabaseServer databaseServer,
     MailSendService mailSendService,
     RewardHelper rewardHelper,
     ProfileHelper profileHelper) : ISptCommand
 {
     public ValueTask<string> PerformAction(UserDialogInfo commandHandler, MongoId sessionId, SendMessageRequest request)
     {
-        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"");
         var profile = profileHelper.GetFullProfile(sessionId);
         rewardHelper.AddAchievementToProfile(profile, "694c60b50cb1e6ad639a5723");
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
@@ -34,7 +32,7 @@ public class EndingsCommand(
     {
         get
         {
-            return "Usage: test ibeatthegameiswear";
+            return "Usage: Receive all four endings customizations (dogtags, hideout, etc)";
         }
     }
 }

@@ -3,6 +3,7 @@ using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Spt.Mod;
+using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Image;
 using WTTContentBackport.Helpers;
 using WTTExampleMod.Patches;
@@ -32,7 +33,7 @@ public record ModMetadata : AbstractModMetadata
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 2)]
 public class WTTContentBackport(
-    WTTServerCommonLib.WTTServerCommonLib wttCommon, ImageRouterService imageRouterService, ModHelper modHelper, BackportQuestHelper backportQuestHelper) : IOnLoad
+    WTTServerCommonLib.WTTServerCommonLib wttCommon, BackportQuestHelper backportQuestHelper, BackportJunkDisabler backportJunkDisabler) : IOnLoad
 {
     public async Task OnLoad()
     {
@@ -46,7 +47,10 @@ public class WTTContentBackport(
         await wttCommon.CustomCustomizationService.CreateCustomCustomizations(assembly);
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
         await wttCommon.CustomAchievementService.CreateCustomAchievements(assembly);
+        await wttCommon.CustomBotLoadoutService.CreateCustomBotLoadouts(assembly);
         new AddCustomisationUnlocksToProfilePatch().Enable();
         backportQuestHelper.ModifyQuests();
+        backportJunkDisabler.AddDogtagsToPmCs();
+        backportJunkDisabler.AddItemsToRewardItemBlacklist();
     }
 }

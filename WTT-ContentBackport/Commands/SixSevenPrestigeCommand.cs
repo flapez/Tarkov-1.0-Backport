@@ -20,7 +20,7 @@ public class SixSevenPrestigeCommand(
 {
     public ValueTask<string> PerformAction(UserDialogInfo commandHandler, MongoId sessionId, SendMessageRequest request)
     {
-        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"");
+        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a full game restart in order to see the new Head options");
         var profile = profileHelper.GetFullProfile(sessionId);
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
         rewardHelper.AddAchievementToProfile(profile, "694c6575af08f6f1d59a5737");
@@ -43,7 +43,7 @@ public class SixSevenPrestigeCommand(
     {
         get
         {
-            return "Usage: test 67prestige";
+            return "Usage: Receive Prestige 5 and 6 content";
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
+using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Services;
 using WTTServerCommonLib.Helpers;
@@ -26,6 +28,33 @@ public class BaseGameItemEdits(
         {
             switch (id)
             {
+                case "67586b7e49c2fa592e0d8ed9":
+                    item.Parent = "5448e8d04bdc2ddf718b4569";
+                    item.Properties.ShortName= "item_food_saladbox";
+                    item.Properties.UsePrefab.Path =
+                        "assets/content/weapons/usable_items/item_food_saladbox/item_food_saladbox_container.bundle";
+                    item.Properties.MaxResource = 1;
+                    item.Properties.MetascoreGroup = "Utility";
+                    item.Properties.FoodEffectType = "afterUse";
+                    item.Properties.FoodUseTime = 5;
+                    item.Properties.ItemSound = "generic";
+                    item.Properties.RarityPvE = "SuperRare";
+                    if (item.Properties.EffectsHealth == null)
+                        item.Properties.EffectsHealth = new Dictionary<HealthFactor, EffectsHealthProperties>();
+
+                    // Initialize Energy
+                    if (!item.Properties.EffectsHealth.ContainsKey(HealthFactor.Energy))
+                        item.Properties.EffectsHealth[HealthFactor.Energy] = new EffectsHealthProperties();
+
+                    item.Properties.EffectsHealth[HealthFactor.Energy].Value = 100;
+
+                    // Initialize Hydration
+                    if (!item.Properties.EffectsHealth.ContainsKey(HealthFactor.Hydration))
+                        item.Properties.EffectsHealth[HealthFactor.Hydration] = new EffectsHealthProperties();
+
+                    item.Properties.EffectsHealth[HealthFactor.Hydration].Value = -10;
+
+                    break;
                 case "5ae30bad5acfc400185c2dc4":
                     slotHelper.ModifySlotFilters(item, 0, 0, [
                         "68a63d1522b1e0bd360afe67"]);

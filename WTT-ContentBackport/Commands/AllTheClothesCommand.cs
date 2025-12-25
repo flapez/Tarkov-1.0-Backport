@@ -59,39 +59,20 @@ public class AllTheClothesCommand(
         profile.AddCustomisations(civilianVoices, "voice", CustomisationSource.DEFAULT);
         profile.AddCustomisations(blackDivisionVoices, "voice", CustomisationSource.DEFAULT);
         profile.AddCustomisations(ruafVoices, "voice", CustomisationSource.DEFAULT);
-        
-        
-        //mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"");
-
-        var messageDetails = new SendMessageDetails()
-        {
-            RecipientId = sessionId,
-            Sender = MessageType.UserMessage,
-            DialogType = MessageType.UserMessage,
-            SenderDetails = commandHandler,
-            MessageText = "Added Black Division, RUAF, and Civilian customizations to your profile!",
-            ProfileChangeEvents = new List<ProfileChangeEvent>()
-            {
-                new()
-                {
-                    Type = "CustomizationUpdateRequired",
-                }
-            }
-        };
-        mailSendService.SendMessageToPlayer(messageDetails);
+        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a full game restart in order to see the new Head and Voice options");
         return new ValueTask<string>(request.DialogId);
     }
 
     public string Command
     {
-        get { return "alltheclothes"; }
+        get { return "givemealltheclothes"; }
     }
 
     public string CommandHelp
     {
         get
         {
-            return "Usage: test alltheclothes";
+            return "Usage: Unlocks all Black Division, RUAF, and Civilian customizations";
         }
     }
 }

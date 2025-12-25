@@ -1,15 +1,16 @@
 ﻿using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Spt.Config;
-using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Servers;
 
 namespace WTTContentBackport.Helpers;
 
 
 [Injectable]
-public class BackportJunkDisabler(DatabaseService databaseService, PmcConfig pmcConfig, ItemConfig itemConfig)
+public class BackportJunkDisabler(ConfigServer configServer)
 {
-
+    private PmcConfig pmcConfig = configServer.GetConfig<PmcConfig>();
+    private ItemConfig itemConfig = configServer.GetConfig<ItemConfig>();
     private readonly List<MongoId> _bearDogtags = new()
     {
         "68df9908972cf1e1ec07256a",
@@ -41,11 +42,15 @@ public class BackportJunkDisabler(DatabaseService databaseService, PmcConfig pmc
 
     private readonly List<MongoId> _itemsToBlacklist = new()
     {
-"68f117b8121d878a2303eee0", // LP Gamma
-"68f8e04eae031982b00e7aaf", // Battle Worn Gamma
-"68d55968ca9935b3f10607a9", // LP Fanny
+    "68f117b8121d878a2303eee0", // LP Gamma
+    "68f8e04eae031982b00e7aaf", // Battle Worn Gamma
+    "68d55968ca9935b3f10607a9", // LP Fanny
+    "689479cb47e5acd1e10be986", // BD Ferro Concepts FCPC
+    "68947a4be4bf255d1b0ca746", // BD First Spear Siege-R
+    "689479eb30cc5ba7be00f5ff", // BD Spiritus Systems LV-119
+    "689479a4a733b1602007e2eb", // BD Spiritus Systems LV-119 v1
     };
-    private void AddDogtagsToPmCs()
+    public void AddDogtagsToPmCs()
     {
         var bearDogtagSettings = pmcConfig.DogtagSettings["bear"];
         var usecDogtagSettings = pmcConfig.DogtagSettings["usec"];
@@ -65,16 +70,21 @@ public class BackportJunkDisabler(DatabaseService databaseService, PmcConfig pmc
         }
     }
     
-    private void AddItemsToRewardItemBlacklist()
+    public void AddItemsToRewardItemBlacklist()
     {
-        foreach (var newItem in _bearDogtags)
+        foreach (var dogtag in _bearDogtags)
         {
-            itemConfig.Blacklist.Add(newItem);
+            itemConfig.Blacklist.Add(dogtag);
         }
 
-        foreach (var newItem in _usecDogtags)
+        foreach (var dogtag in _usecDogtags)
         {
-            itemConfig.Blacklist.Add(newItem);
+            itemConfig.Blacklist.Add(dogtag);
+        }
+
+        foreach (var itemToBlacklist in _itemsToBlacklist)
+        {
+            itemConfig.Blacklist.Add(itemToBlacklist);
         }
     }
     

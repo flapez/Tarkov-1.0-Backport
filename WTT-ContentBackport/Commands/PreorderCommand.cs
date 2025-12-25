@@ -18,7 +18,6 @@ public class PreorderCommand(
 {
     public ValueTask<string> PerformAction(UserDialogInfo commandHandler, MongoId sessionId, SendMessageRequest request)
     {
-        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"");
         var profile = profileHelper.GetFullProfile(sessionId);
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
         rewardHelper.AddAchievementToProfile(profile, "6948996f192a4d4fc09a56f7");
@@ -27,14 +26,14 @@ public class PreorderCommand(
 
     public string Command
     {
-        get { return "preorderbonus"; }
+        get { return "shutupandtakemyroubles"; }
     }
 
     public string CommandHelp
     {
         get
         {
-            return "Usage: test preorderbonus";
+            return "Usage: Receive all preorder/beta content";
         }
     }
 }
