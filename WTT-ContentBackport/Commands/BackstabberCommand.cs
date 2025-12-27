@@ -19,6 +19,7 @@ public class BackstabberCommand(
     public ValueTask<string> PerformAction(UserDialogInfo commandHandler, MongoId sessionId, SendMessageRequest request)
     {
         var profile = profileHelper.GetFullProfile(sessionId);
+        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a main menu refresh/reload in order to receive the achievement and unlock the Clothing");
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
         rewardHelper.AddAchievementToProfile(profile, "694c5527d1d40bd7db9a571a");
         return new ValueTask<string>(request.DialogId);

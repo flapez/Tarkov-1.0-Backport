@@ -26,8 +26,6 @@ public class AllTheClothesCommand(
     
     public ValueTask<string> PerformAction(UserDialogInfo commandHandler, MongoId sessionId, SendMessageRequest request)
     {
-
-        
         var profile = profileHelper.GetFullProfile(sessionId);
         rewardHelper.AddAchievementToProfile(profile, "6948990c05f4f91bdb9a56f3");
         rewardHelper.AddAchievementToProfile(profile, "694c5cae0256a6bd999a5721");
@@ -59,7 +57,8 @@ public class AllTheClothesCommand(
         profile.AddCustomisations(civilianVoices, "voice", CustomisationSource.DEFAULT);
         profile.AddCustomisations(blackDivisionVoices, "voice", CustomisationSource.DEFAULT);
         profile.AddCustomisations(ruafVoices, "voice", CustomisationSource.DEFAULT);
-        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a full game restart in order to see the new Head and Voice options");
+        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a main menu refresh/reload in order to receive the achievement and unlock the Clothing");
+        mailSendService.SendUserMessageToPlayer(sessionId, commandHandler, $"This REQUIRES a full game restart in order to see the new Head and Voice options.");
         return new ValueTask<string>(request.DialogId);
     }
 
