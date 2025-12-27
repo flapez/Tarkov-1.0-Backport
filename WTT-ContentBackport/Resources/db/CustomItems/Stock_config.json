@@ -8,7 +8,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "5c0e2ff6d174af02a1659d4a",
+        "5a33e75ac4a2826c6e06d759"
+      ],
       "Description": "stock_ar15_colt_n1",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
@@ -123,7 +126,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock_000"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 9800,
     "handbookPriceRoubles": 5950,
     "addtoBots": false,
@@ -277,7 +283,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 12024,
     "handbookPriceRoubles": 2147,
     "addtoBots": false,
@@ -424,7 +433,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 38934,
     "handbookPriceRoubles": 22711,
     "addtoBots": false,
@@ -456,7 +468,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "5a33e75ac4a2826c6e06d759",
+        "5c0e2ff6d174af02a1659d4a"
+      ],
       "Description": "stock_ar15_colt_a2_std",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
@@ -552,7 +567,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 13928,
     "handbookPriceRoubles": 11200,
     "addtoBots": false,
@@ -680,7 +698,7 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": false,
-    "modSlot": ["mod_stock"],
+    "modSlot": [],
     "fleaPriceRoubles": 10054,
     "handbookPriceRoubles": 7480,
     "addtoBots": false,
@@ -856,7 +874,9 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock"
+    ],
     "fleaPriceRoubles": 61548,
     "handbookPriceRoubles": 14525,
     "addtoBots": false,
@@ -1012,7 +1032,9 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock"
+    ],
     "fleaPriceRoubles": 25674,
     "handbookPriceRoubles": 1085,
     "addtoBots": false,
@@ -1044,7 +1066,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "5a33e75ac4a2826c6e06d759",
+        "5c0e2ff6d174af02a1659d4a"
+      ],
       "Description": "stock_ar15_magpul_moe_carbine_blk",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
@@ -1140,7 +1165,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 48000,
     "handbookPriceRoubles": 21120,
     "addtoBots": false,
@@ -1289,7 +1317,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 31295,
     "handbookPriceRoubles": 22711,
     "addtoBots": false,
@@ -1321,7 +1352,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "5a33e75ac4a2826c6e06d759",
+        "5c0e2ff6d174af02a1659d4a"
+      ],
       "Description": "stock_ar15_colt_m16a1_type_7",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
@@ -2181,7 +2215,10 @@
       "BackgroundColor": "blue",
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "ConflictingItems": [
+        "5a33e75ac4a2826c6e06d759",
+        "5c0e2ff6d174af02a1659d4a"
+      ],
       "Description": "stock_ar15_magpul_moe_carbine_blk",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
@@ -2277,7 +2314,10 @@
     },
     "addtoInventorySlots": [],
     "addtoModSlots": true,
-    "modSlot": ["mod_stock_000"],
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ],
     "fleaPriceRoubles": 47000,
     "handbookPriceRoubles": 21120,
     "addtoBots": false,
