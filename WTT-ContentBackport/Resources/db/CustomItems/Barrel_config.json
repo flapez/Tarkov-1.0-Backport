@@ -2890,8 +2890,8 @@
       }
     },
     "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
+    "addtoModSlots": true,
+    "modSlot": ["mod_barrel"],
     "fleaPriceRoubles": 23000,
     "handbookPriceRoubles": 9523,
     "addtoBots": false,
